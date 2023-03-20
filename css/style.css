@@ -50,12 +50,13 @@ button {
 
 .section-head {
     display: flex;
-    background-color: aqua;
-    width: 700px;
-    height: 300px;
+    
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    color: white;
+    
+
 }
 
 
@@ -63,9 +64,15 @@ button {
 div {
     background-color: black;
     height: 60px;
-    margin-bottom: 5px;
-    color: white;
+
 }
+
+.section-head {
+    background-color: aqua;
+    width: 700px;
+    height: 300px;
+}
+
 
 
 
