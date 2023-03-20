@@ -10,6 +10,9 @@ header {
     height: 500px;
     background-color: rgb(33, 161, 235);
     display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
 }
 
 .nav-head {
@@ -42,3 +45,28 @@ button {
     border-radius: 20px;
     border: 0;
 }
+
+/* regole section header */
+
+.section-head {
+    display: flex;
+    background-color: aqua;
+    width: 700px;
+    height: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* regole debug section header */
+div {
+    background-color: black;
+    height: 60px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+
+
+
