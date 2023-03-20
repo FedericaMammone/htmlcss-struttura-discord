@@ -61,7 +61,7 @@ button {
 
 
 /* regole debug section header */
-div {
+.text-head {
     background-color: black;
     height: 60px;
 
@@ -73,7 +73,38 @@ div {
     height: 300px;
 }
 
+/* regole main */
+
+/* regole sezione bianca */
+
+.section-white {
+    display: flex;
+    background-color: burlywood;
+    height: 650px;
+    justify-content:center;
+    align-items:center;
+    gap: 50px;
+    
+}
+
+.img {
+    background-color: black;
+    height: 250px;
+    width: 400px;
+
+}
+
+.text-main {
+    
+    width: 300px;
+    background-color: white;
+    
+}
+
+.section {
+    background-color: lightgrey;
+    height: 650px;
+}
 
 
-
-
+/* regole sezione grigia */
