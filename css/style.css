@@ -101,10 +101,41 @@ button {
     
 }
 
-.section {
-    background-color: lightgrey;
-    height: 650px;
-}
 
 
 /* regole sezione grigia */
+
+.section {
+    background-color: lightgrey;
+    height: 650px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+
+.speciale {
+    display: flex;
+    height: 900px;
+    background-color: lightgrey;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+
+}
+
+/* regole debug sezione speciale */
+.text-speciale {
+    width: 70%;
+    height: 100px;
+    background-color: white;
+
+}
+
+.img-speciale {
+    width: 80%;
+    height: 500px;
+    background-color: black;
+}
